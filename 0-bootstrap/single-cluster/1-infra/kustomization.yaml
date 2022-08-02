@@ -28,17 +28,17 @@ resources:
   #- argocd/namespace-pem.yaml
   #- argocd/serviceaccounts-ibm-common-services.yaml
   - argocd/serviceaccounts-tools.yaml
-#- argocd/serviceaccounts-db2.yaml
-#- argocd/serviceaccounts-mq.yaml
-#- argocd/serviceaccounts-b2bi-prod.yaml
-#- argocd/serviceaccounts-b2bi-nonprod.yaml
-#- argocd/serviceaccounts-pem.yaml
-#- argocd/sfg-b2bi-clusterwide.yaml
-#- argocd/pem-b2bi-clusterwide.yaml
-#- argocd/scc-wkc-iis.yaml
-#- argocd/norootsquash.yaml
-#- argocd/daemonset-sync-global-pullsecret.yaml
-#- argocd/storage.yaml
+  #- argocd/serviceaccounts-db2.yaml
+  #- argocd/serviceaccounts-mq.yaml
+  #- argocd/serviceaccounts-b2bi-prod.yaml
+  #- argocd/serviceaccounts-b2bi-nonprod.yaml
+  #- argocd/serviceaccounts-pem.yaml
+  #- argocd/sfg-b2bi-clusterwide.yaml
+  #- argocd/pem-b2bi-clusterwide.yaml
+  #- argocd/scc-wkc-iis.yaml
+  #- argocd/norootsquash.yaml
+  #- argocd/daemonset-sync-global-pullsecret.yaml
+  - argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
 patches:
