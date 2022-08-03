@@ -32,7 +32,7 @@ spec:
         - name: spec.installPlanApproval
           value: Automatic
         - name: spec.name
-          value: ibm-watson-assistant-operator-subscription
+          value: ibm-watson-assistant-operator
         - name: spec.source
           value: ibm-operator-catalog
         - name: spec.sourceNamespace
