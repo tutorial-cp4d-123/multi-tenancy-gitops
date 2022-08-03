@@ -28,7 +28,7 @@ spec:
         - name: metadata.name
           value: ibm-cpd-wa-operator-catalog-subscription
         - name: spec.channel
-          value: v4.0
+          value: v4.5
         - name: spec.installPlanApproval
           value: Automatic
         - name: spec.name
