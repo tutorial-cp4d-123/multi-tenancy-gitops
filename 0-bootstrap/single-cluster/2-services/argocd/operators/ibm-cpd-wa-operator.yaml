@@ -26,7 +26,7 @@ spec:
     helm:
       parameters:
         - name: metadata.name
-          value: ibm-cpd-wa-operator-catalog-subscription
+          value: ibm-watson-assistant-operator-subscription
         - name: spec.channel
           value: v4.5
         - name: spec.installPlanApproval
