@@ -18,7 +18,7 @@ spec:
     server: https://kubernetes.default.svc
   project: services
   source:
-    chart: ibm-watson-assistant-operator-subscription
+    chart: ibm-cp4d-watson-assistant-instance
     repoURL: "" # Populated by kustomize patches in 2-services/kustomization.yaml
     targetRevision: 0.1.2
     helm:
