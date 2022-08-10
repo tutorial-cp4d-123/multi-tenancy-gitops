@@ -150,7 +150,7 @@ patches:
     patch: |-
       - op: add
         path: /spec/source/repoURL
-        value: https://charts.cloudnativetoolkit.dev
+        value: https://github.com/cloud-native-toolkit/toolkit-charts
   - target:
       name: ibm-automation-foundation-operator
     patch: |-

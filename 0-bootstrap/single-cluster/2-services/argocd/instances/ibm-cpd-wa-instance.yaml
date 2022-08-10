@@ -6,8 +6,6 @@ metadata:
     argocd.argoproj.io/sync-wave: "270"
   labels:
     gitops.tier.group: ibm-cloudpak
-    gitops.tier.layer: services
-    gitops.tier.source: helm
 spec:
   syncPolicy:
     automated:
@@ -31,5 +29,3 @@ spec:
           value: Enterprise
         - name: spec.version
           value: 4.0.8
-        - name: datastores.postgres.storageClassName
-          value: managed-nfs-storage
