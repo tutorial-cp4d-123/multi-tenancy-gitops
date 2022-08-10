@@ -17,7 +17,7 @@ spec:
   project: services
   source:
     chart: ibm-cp4d-watson-assistant-instance
-    repoURL: "" # Populated by kustomize patches in 2-services/kustomization.yaml
+    repoURL: "https://github.com/cloud-native-toolkit/toolkit-charts" # Populated by kustomize patches in 2-services/kustomization.yaml
     targetRevision: 0.1.2
     helm:
       parameters:
